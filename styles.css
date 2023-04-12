@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+
+h1, h2, h3, h4, p, ul {
+    margin: 0;
+}
+
+ul {
+    list-style: none;    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+/* ========================== LOGO ========================== */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo span {
+    color: #2196F3;
+}
+
+/* ========================== HEADER ========================== */
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 215px 25px 215px;
+}
+
+.head_navigation {
+    display: flex;
+    align-items: center;
+}
+
+.head_navigation_list {
+    display: flex;
+    align-items: center;
+}
+
+.head_navigation_link {
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.link_contact {
+    color: #757575;
+}
+
+.head_navigation_link:hover {
+    color: #2196F3;
+}
+
+
+
+
+/* ========================== MAIN ========================== */
+
+.first_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 0;
+    background-color: #2F303A;
+    
+}
+
+.main_title {
+    width: 700px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.main_btn {
+    display: flex;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
